@@ -11,3 +11,4 @@ PHP: Para o backend e lógica de autenticação.
 PostgreSQL: Para o banco de dados, onde são armazenadas as informações de usuários e mensagens.
 HTML/CSS: Para o frontend e a criação da interface de usuário.
 JavaScript: Para interação e melhoria da experiência do usuário
+<img src="inicio.png">
