@@ -12,3 +12,5 @@ PostgreSQL: Para o banco de dados, onde são armazenadas as informações de usu
 HTML/CSS: Para o frontend e a criação da interface de usuário.
 JavaScript: Para interação e melhoria da experiência do usuário
 <img src="inicio.png">
+<img src="login.png">
+<img src="register.png">
