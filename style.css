@@ -1,0 +1,128 @@
+/* Reset de margens e padding para garantir consistência */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais do body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8f4f9; /* Cor de fundo suave em tom de azul claro */
+    color: #333; /* Cor do texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container de Boas-Vindas */
+#welcome-container {
+    width: 100%;
+    background-color: #1e3a5f; /* Azul escuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#welcome-container strong {
+    font-weight: 700;
+}
+
+#logout-btn {
+    background-color: #e74c3c; /* Botão vermelho */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#logout-btn:hover {
+    background-color: #c0392b; /* Efeito hover mais escuro */
+}
+
+/* Container do chat */
+#chat-container {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Estilo das mensagens */
+#messages {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+
+/* Cada mensagem */
+.message {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f4f8ff; /* Azul claro para mensagens */
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Estilo da área de texto */
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    resize: none;
+    background-color: #f4f8ff; /* Azul claro */
+}
+
+/* Estilo do botão */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1e3a5f; /* Azul escuro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4b6a8c; /* Azul médio para hover */
+}
+
+button:active {
+    background-color: #36557b; /* Azul escuro para click */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    #chat-container {
+        width: 90%;
+    }
+
+    header {
+        font-size: 1.5em;
+    }
+
+    button, textarea {
+        font-size: 13px;
+    }
+}
