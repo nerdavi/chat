@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost'; // Altere para o seu host do banco de dados
-$dbname = 'chat'; // Altere para o nome do seu banco de dados
-$user = 'postgres'; // Altere para o seu usuário
-$pass = '1234'; // Altere para sua senha
+$host = 'localhost';
+$dbname = 'chat'; 
+$user = 'postgres';
+$pass = '1234'; 
 
 try {
     $pdo = new PDO("pgsql:host=$host;dbname=$dbname", $user, $pass);
